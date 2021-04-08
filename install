@@ -3,7 +3,7 @@
 function add() {
 	FILE=$1
 	if [ -f "$FILE" ]; then
-		echo -e "\nalias blat='sudo'\n" >> $FILE
+		echo "\nalias blat='sudo'\n" >> $FILE
 		source $FILE
 		exit 0
 	fi
