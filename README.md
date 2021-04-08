@@ -13,6 +13,5 @@ curl https://raw.githubusercontent.com/dimagoltsman/russian-sudo/main/install | 
 cat: test.txt: Permission denied
 ~ ᐅ blat cat test.txt 
 i am test file without permissions
-~ ᐅ 
 
 ```
