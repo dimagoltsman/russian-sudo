@@ -6,6 +6,11 @@ Makes bash understand russian
 ```bash
 curl https://raw.githubusercontent.com/dimagoltsman/russian-sudo/main/install | bash
 ```
+##or if you use zsh
+```bash
+curl https://raw.githubusercontent.com/dimagoltsman/russian-sudo/main/install | zsh
+```
+
 
 # example:
 ```bash
