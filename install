@@ -4,6 +4,10 @@ function add() {
 	FILE=$1
 	if [ -f "$FILE" ]; then
 		echo "\nalias blat='sudo'\n" >> $FILE
+                echo "\nalias blyat='sudo'\n" >> $FILE
+                echo "\nalias suka='sudo'\n" >> $FILE
+                echo "\nalias nahui='sudo'\n" >> $FILE
+                echo "\nalias padla='sudo'\n" >> $FILE
 		source $FILE
 		exit 0
 	fi
